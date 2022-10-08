@@ -1,0 +1,22 @@
+{
+  "name": "pro-mern-stack-2",
+  "version": "1.0.0",
+  "description": "first mern package",
+  "main": "index.js",
+  "scripts": {
+    "compile": "babel src --out-dir public",
+    "start": "nodemon -w server server/server.js",
+    "watch": "babel src --out-dir public --watch --verbose",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "PROJECTS_782/MERN/Pro_MERN_stack/pro-mern-stack-2"
+  },
+  "author": "steeltitanrbrn",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/preset-env": "^7.19.1",
+    "@babel/preset-react": "^7.18.6"
+  }
+}
